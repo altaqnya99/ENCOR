@@ -8,4 +8,4 @@
 
 - For more details please visit  [APE-360.com](https://ape-360.com/)
 
-[](https://raw.githubusercontent.com/APE360/IMG/master/APE-FullHD.png)
+[](https://raw.githubusercontent.com/APE360/IMG/master/APE-FullHD.pngs=300)
