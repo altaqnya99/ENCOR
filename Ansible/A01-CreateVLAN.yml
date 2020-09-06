@@ -3,7 +3,7 @@
   gather_facts: no
 
   tasks:
-    - name: Create vlan
+    - name: Create VLAN
       ios_vlan:
         vlan_id: 100
         name: VLAN100-DATA
