@@ -1,0 +1,12 @@
+- name: Playbook3
+  hosts: Cisco
+  gather_facts: no
+
+  tasks:
+    - name: Create And Assign VLAN
+      ios_vlan:
+        vlan_id: 301
+        name: VLAN301-DATA
+        state: present
+        interfaces:
+          - GigabitEthernet0/3
