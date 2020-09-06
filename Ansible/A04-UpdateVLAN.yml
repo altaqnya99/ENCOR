@@ -1,0 +1,12 @@
+- name: Playbook4
+  hosts: Cisco
+  gather_facts: no
+
+  tasks:
+    - name: Update VLAN
+      ios_vlans:
+        config:
+          - vlan_id: 10
+            name: VLAN_10_DATA_Updated
+
+        state: replaced
