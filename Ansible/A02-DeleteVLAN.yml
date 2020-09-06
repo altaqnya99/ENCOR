@@ -1,0 +1,9 @@
+- name: Playbook2
+  hosts: Cisco
+  gather_facts: no
+
+  tasks:
+    - name: Delete vlan
+      ios_vlan:
+        vlan_id: 100
+        state: absent
