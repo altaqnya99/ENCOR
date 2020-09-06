@@ -4,6 +4,10 @@
 
   tasks:
     - name: Delete VLAN
-      ios_vlan:
-        vlan_id: 100
-        state: absent
+      ios_vlans:
+        config:
+          - name: VLAN_10_DATA
+            vlan_id: 10
+            state: active
+
+        state: deleted
