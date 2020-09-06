@@ -3,7 +3,7 @@
   gather_facts: no
 
   tasks:
-    - name: Delete vlan
+    - name: Delete VLAN
       ios_vlan:
         vlan_id: 100
         state: absent
